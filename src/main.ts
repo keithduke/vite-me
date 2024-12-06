@@ -11,7 +11,9 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = ``;
   const max_rotation = 90;
   window.addEventListener("scroll", () => {
     let rotation_angle = Math.min(window.scrollY / 10, max_rotation);
-    element.style.transform = `rotate(${rotation_angle}deg)`;
+    if (element) {
+      (element as HTMLElement).style.transform = `rotate(${rotation_angle}deg)`;
+    }
   });
 
   // On mouse leave, assume they are navigating and show modal
