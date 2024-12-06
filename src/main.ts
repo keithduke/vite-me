@@ -25,7 +25,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <ul>
           <li>
             <div id="javascript">
-              <h3>Javascript</h3>
+              <h3>Javascript/TypeScript</h3>
               <p>With Node and frameworks like Vue/Nuxt and React/Next.</p>
             </div>
           </li>
@@ -77,9 +77,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <footer>
       <h2 id="colophon" class="jitter">Colophon</h2>
 
-      <p>This website was designed using a
-       <a href="https://getrocketbook.com/">Rocket Book</a> and created with
-       <a href="https://www.vim.org/">Vim</a> to write html, css and javascript
+      <p>This website is created with <a href="https://vitejs.dev/">Vite</a> and
        powered by <a href="https://pages.github.com/">GitHub Pages</a>.</p>
 
       <p>&#169; 2024 Keith Duke</p>
@@ -90,9 +88,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
       <p><span id="callout">Thanks</span> for stopping by!</p>
     </dialog>
-
-
-
-
-
-`
+`;

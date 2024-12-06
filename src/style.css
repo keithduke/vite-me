@@ -243,3 +243,19 @@ footer p {
   background-color: #e34f26;
   padding: 1em;
 }
+
+ul li {
+box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 1px,
+  rgba(0, 0, 0, 0.25) 0px 1px 1px;
+-webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 1px,
+  rgba(0, 0, 0, 0.25) 0px 1px 1px;
+}
+
+ul li h3.light {
+  color: white;
+  padding: 1em;
+}
+
+ul li h3 {
+}
+
